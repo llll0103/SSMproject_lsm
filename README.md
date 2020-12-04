@@ -12,3 +12,5 @@
 
 + **담당부분 : 상담창구 카테고리**
   + 상담창구 컨트롤러 : https://github.com/llll0103/SSMproject_lsm/tree/main/SSMProject_lsm/src/ssm/cg
+  + [상담카테고리 화면_이새미.pdf](https://github.com/llll0103/SSMproject_lsm/files/5644946/_.pdf)
+
