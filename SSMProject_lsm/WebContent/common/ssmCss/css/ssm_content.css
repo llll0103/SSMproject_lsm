@@ -1,0 +1,307 @@
+@CHARSET "euc-kr";
+
+
+.input{height:15px; padding:4px 5px; border:1px solid #d9d9d9;}
+
+/* 마진 */
+.margin_auto{margin:0 auto !important;}
+
+.mt_5{margin-top:5px !important;}
+.mt_10{margin-top:10px !important;}
+.mt_15{margin-top:15px !important;}
+.mt_20{margin-top:20px !important;}
+.mt_25{margin-top:25px !important;}
+.mt_30{margin-top:30px !important;}
+
+.mr_5{margin-right:5px !important;}
+.mr_10{margin-right:10px !important;}
+.mr_15{margin-right:15px !important;}
+.mr_20{margin-right:20px !important;}
+.mr_25{margin-right:25px !important;}
+.mr_30{margin-right:30px !important;}
+
+.mb_5{margin-bottom:5px !important;}
+.mb_10{margin-bottom:10px !important;}
+.mb_15{margin-bottom:15px !important;}
+.mb_20{margin-bottom:20px !important;}
+.mb_25{margin-bottom:25px !important;}
+.mb_30{margin-bottom:30px !important;}
+
+.ml_5{margin-left:5px !important;}
+.ml_10{margin-left:10px !important;}
+.ml_15{margin-left:15px !important;}
+.ml_20{margin-left:20px !important;}
+.ml_25{margin-left:25px !important;}
+.ml_30{margin-left:30px !important;}
+
+/*패딩*/
+.pt_5{padding-top:5px !important;}
+.pt_10{padding-top:10px !important;}
+.pt_15{padding-top:15px !important;}
+.pt_20{padding-top:20px !important;}
+.pt_25{padding-top:25px !important;}
+.pt_30{padding-top:30px !important;}
+
+.pr_5{padding-right:5px !important;}
+.pr_10{padding-right:10px !important;}
+.pr_15{padding-right:15px !important;}
+.pr_20{padding-right:20px !important;}
+.pr_25{padding-right:25px !important;}
+.pr_30{padding-right:30px !important;}
+
+.pb_5{padding-bottom:5px !important;}
+.pb_10{padding-bottom:10px !important;}
+.pb_15{padding-bottom:15px !important;}
+.pb_20{padding-bottom:20px !important;}
+.pb_25{padding-bottom:25px !important;}
+.pb_30{padding-bottom:30px !important;}
+
+.pl_5{padding-left:5px !important;}
+.pl_10{padding-left:10px !important;}
+.pl_15{padding-left:15px !important;}
+.pl_20{padding-left:20px !important;}
+.pl_25{padding-left:25px !important;}
+.pl_30{padding-left:30px !important;}
+
+
+/* 뷰 */
+/* oaBoardDetail.jsp */
+.view_box{
+	width:100%;
+	margin : 0 auto;
+	margin-bottom : 15px; 
+	text-align : initial;
+	table-layout:fixed;
+	border-collapse: collapse;
+	font-size:1.1em;
+}
+
+.view_box th{
+	background-color:#53888b91; 
+	padding:10px 1%;
+	word-wrap:break-word;
+	border:1px solid #d5d5d5;
+}
+
+.view_box td{
+	padding:10px 1%;
+	word-wrap:break-word;
+	border:1px solid #d5d5d5;
+}
+
+/* 수정, 삭제, 목록 버튼 */
+
+.board_btn{
+	position:relative; top:15px;
+	margin-bottom : 5%;
+}
+
+.board_btn span{
+	background:#9dbbbd; 
+	width:120px; 
+	font-size:0.9em; 
+	text-align:center; 
+	color:#fff; 
+	padding:5px 10px; 
+	border-radius:6px;
+}
+
+/* 상태 버튼 */
+#status {
+	background-color: #9dbbbd;
+    padding: 3px;
+    border-radius: 3px;
+    color: red;
+    font-size: 11px;
+    font-weight: bolder;
+}
+
+
+/* oaComment.jsp */
+/* 답변목록 뷰 */
+
+.commentlist_box{
+   width:100%;
+   table-layout:fixed;
+   border-collapse: collapse;
+   font-size:1.1em;
+   border-top:2px solid #c2c2c2;
+   border-bottom:1px solid #c2c2c2;
+   /*margin:0 100px 0 100px;*/
+}
+.commentlist_box td{
+   border-top:1px solid #c2c2c2;
+   background:#53888b91; 
+   padding:5px;  
+}
+
+.commentlist_box td span.name{
+   font-weight:bold;
+}
+
+/* oaBoardList.jsp */
+
+.detail_list{
+	font-size:1.1em; 
+	line-height:150%;
+}
+
+.detail_list li{
+/* 	padding:5px 0px 5px 10px; */
+	background:url(/inc/img/common/list_style_b.gif)no-repeat 0 12px;
+	text-align: left;
+    color: lightgrey;
+}
+
+/* 검색상자 */
+
+.search_box_app{
+	float:left;
+	padding:1.2em 10px;
+	margin-bottom:10px;
+	width:100%;
+	height:100%;
+	/*border:1px solid #ebebeb;*/
+/* 	background:#53888b91; */
+	background: #5f9ea04f;
+}
+
+.search_box_app div{
+	margin:3px 0px;
+}
+
+.search_box_app .input{
+	height:100%; 
+	width:75%;
+}
+
+.search_box_app .select{
+	/*height:23px;*/ 
+	width:75%;
+	height : 100%;
+	float:left;
+}
+
+/* 검색버튼 */
+
+.bt_search{
+	background: #b7d0ccd9;
+    /* width: 119px; */
+    /* height: 15px; */
+    padding: 0.7em 0;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    top: 0.5px;
+}
+
+/*게시판*/
+.list_box{
+	width:100%;
+	font-size:0.99em
+}
+
+.list_box th{
+	background-color:#53888b91; 
+	border-top:1px solid #d5d5d5;
+	border-bottom:1px solid #d5d5d5;
+	color:#333;
+	padding:15px 0.5%;
+	word-wrap:break-word;
+	text-align:center;
+}
+
+.list_box td{
+	padding:15px 0.5%;
+/* 	border-bottom:1px solid #ebebeb; */
+	text-align:center;
+	word-wrap:break-word;
+}
+
+.list_box td.content_left{
+	text-align:left;
+	 text-indent: 0px;
+}
+
+/* 예약 가능, 불가 표시 */
+
+.tbl_btn_1{
+	display:inline-block; 
+	background:#88d2d2; 
+	color:#fff; 
+	padding:4px; 
+	border-radius:5px;
+}
+
+.tbl_btn_2{
+	display:inline-block; 
+	background:#4b7786; 
+	color:#fff; 
+	padding:4px; 
+	border-radius:5px;
+}
+
+
+.status_1{
+	display:inline-block; 
+	background:#aaa; 
+	color:#fff; 
+	padding:4px; 
+	border-radius:5px;
+}
+
+.status_2{
+	display:inline-block; 
+	background:#d05656; 
+	color:#fff; 
+	padding:4px; 
+	border-radius:5px;
+}
+
+/* 모달팝업 */
+.popup_tit{font-family:"나눔고딕", NanumGothic, "돋움", dotum, sans-serif; font-size:1.3em; letter-spacing:-0.05em; line-height:150%; font-weight:bold; color:#fff; text-align:left; padding:7px 1%; background:#2b475e;}
+
+.view_box2{
+	width : 100%;
+	table-layout:fixed;
+	border-collapse: collapse;
+	font-size:1.1em;
+	border-top:2px solid #d5d5d5;
+	border-bottom:2px solid #d5d5d5;
+}
+
+.view_box td span.td_tit{
+	font-weight:bold;
+	font-size:1.1em;
+}
+
+.view_box2 th{
+	background-color:#53888b91; 
+	padding:10px 1%;
+	word-wrap:break-word;
+	border:1px solid #d5d5d5;
+}
+
+.view_box2 td{
+	color : black;
+	padding:10px 1%;
+	word-wrap:break-word;
+	border:1px solid #d5d5d5;
+}
+
+.popBtn {
+    background: #fead09;
+    padding: 0.5%;
+    margin: 1% 0;
+    border-radius: 20%;
+    color : white;
+}
+
+.view_box input[type="radio"]{
+	margin : 10px;
+}
+
+.tab_list {
+	margin-top : 5px;
+}

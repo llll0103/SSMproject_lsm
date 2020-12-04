@@ -1,0 +1,36 @@
+@CHARSET "euc-kr";
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+/* 전체 선택자 사용시 위 속성 외에는 지정하지 마세요. */
+* html  overflow: scroll; overflow-x: auto; }/* [IE] 프레임안의가로스크롤문제해결 */
+html, body {min-height:100%; margin:0; padding:0; background:#53888b91; } /* [IE] 배경색을지정해서화면이뭉개지는문제해결 */
+html {height:100%;} 
+* html body {height:100%;}
+body { color:#fff; font-size:0.75em !important /* 12px */; word-wrap:break-word; word-break:keep-all;}
+:root body {font-size:0.75em;}
+table, pre {font-size:1em;} /* DOCTYPE 없으면 속성 상속 안됨 */
+td {color:#fff;}
+a, a:link {text-decoration:none;}/* cursor: pointer; 안씀.. a태그에 href 없어도 손모양 커서 나오므로  */
+a:visited {}
+a:hover, a:active, a:focus {} /* a:focus추가 */
+img {margin:0; border:0; padding:0; vertical-align:middle;}
+input{margin:0; padding:0; vertical-align:middle;}
+select{vertical-align:middle;}
+
+.dpn {display:none !important; display:table-caption;}
+
+ul {list-style:none; }
+ul li{list-style:none;  }
+
+
+/* 폰트 */
+* {
+	font-style:normal /* em, dfn, var, cite, address */;
+ 	/*font-family:"나눔고딕", "NanumGothic" , "돋움", dotum, sans-serif; */
+ 	font-family: "NanumSquare", "NanumGothic" , "돋움", dotum, sans-serif;
+ 	margin:0; padding:0;
+  }
+ 
+textarea {
+	resize : none;
+}
